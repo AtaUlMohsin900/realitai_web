@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import logo from "public/images/logo.png";
+import logo from "../../../../public/images/logo.png";
 import gsap from "gsap";
 import chroma from "chroma-js";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
@@ -118,7 +118,7 @@ const FooterFive = () => {
               </div>
               <div className="paragraph">
                 <p>
-                  Welcome to our digital agency We specialize in helping
+                  Welcome REALITAI We specialize in helping
                   business most like yours succeed online. From website design
                   and development.
                 </p>
@@ -130,7 +130,7 @@ const FooterFive = () => {
                     className="folks-text animated-text"
                     ref={animatedTextRef}
                   >
-                    info@realitai.com
+                    info@realitai.net
                     {animatedTextContent.split("").map((char, index) => (
                       <span
                         aria-hidden="true"
@@ -183,7 +183,7 @@ const FooterFive = () => {
                 </Link>
                 <Link href="mailto:info@realitai.com">
                   <i className="fa-sharp fa-solid fa-envelope"></i>
-                  info@realitai.com
+                  info@realitai.net
                 </Link>
               </div>
             </div>
